@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+a{
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: #b0bbda;
+    transition: 0.1s;
+}
+
+nav a:hover{
+    border-bottom: 4px solid #fff;
+    color: #fff;
+    font-size: 22px;
+    transition: 0.1s;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-image: url(../img/fundo.png);
+    background-size:cover;
+    background-position:center;
+    overflow-x: hidden;
+}
+#categories{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+
+#navbar{
+    display: flex;
+    background-image: url(../img/nav.png);
+    width: auto;
+    padding-top: 65px;
+    justify-content: center;
+    border-bottom: 5px solid #686C74;
+}
+
+.item{
+    text-shadow: #0B0C11 2px 2px 3px;
+    color: #b0bbda;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+/* Main */
+
+#pack .pack-price,
+.bonus,
+.price,
+.pack1-price,
+.pack-tip-price{
+    color:#ffd000;
+    text-shadow: black 3px 3px 3px;
+    font-weight: bold;
+}
+
+li, 
+.pack-name,
+.pack1-name,
+.pack-tip-name{
+    color: white;
+    font-weight: bold;
+    text-shadow: black 1px 1px;
+}
+
+.pack1-name{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+/* Saldo */
+.saldo{
+    position: relative;
+    left: 515px;
+    top: 75px;
+}
+
+article{
+    position: relative;
+    top: 30px;
+}
+.current-money-text{
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 32px;
+    text-align: center;
+    position: relative;
+    right: 999px;
+}
+
+.current-money{
+    color:#ffd000;
+    text-shadow: black 3px 3px 3px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    right:1125px;
+}
+
+/* Planos */
+#plans{
+    display: flex;
+    gap: 5px;
+    height: 700px;
+    width: auto;
+    justify-content:space-evenly;
+    position: relative;
+    bottom: -60px;
+}
+
+
+#cards{
+    margin-top:50px;
+    display: flex;
+    gap: 15px;
+
+}
+
+#cards a{
+    border: solid #000 3px;
+    transition: 0.1s;
+}
+
+#cards a:hover{
+    border:#ffd000 solid 3px;
+    padding: 7px;
+}
+
+#pack{ /* Todos, em geral */
+    width: 250px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#pack h3{
+    color: #fff;
+    text-shadow: #000 2px 2px;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#pack .pack-name,.pack1-name{
+    font-size: 25px;
+    margin: 0;
+}
+
+#pack .pack-price,
+.pack1-price,.pack-tip-price{
+    font-size: 30px;
+}
+
+.pack-1 p{
+    position: relative;
+    top:530px;
+    right: -15px;
+}
+
+
+
+.pack-1 li{
+    position: relative;
+    top: 215px;
+    left: 50px;
+}
+
+.pack-1 .price-highlight{
+    font-size: 60px;
+    margin-bottom: 0;
+    left: 50px;
+    position: relative;
+    text-shadow: #000 3px 3px;
+
+}
+
+.pack-1 .content{
+    position: relative;
+    margin-top: 2px;
+    font-size: 27px;
+    left: 50px;
+    text-shadow: #000 2px 2px 3px;
+}
+
+
+
+.info{
+    position: relative;
+    top: 210px;
+    font-size: 25px;
+}
+
+.cont{
+    position: relative;
+    left: 20px;
+}
+
+
+#pack .pack-price{
+    position: relative;
+    top: 170px;
+    left: 15px;
+}
+
+.pack-tip-price{
+    position: relative;
+    top: 8px;
+    left: 15px;
+}
+
+.pack-3,
+.pack-5{
+    overflow:hidden;
+}
+
+#pack .pack-name{
+    position: relative;
+    top: 150px;
+    left: 20px;
+    text-shadow: #000 2px 2px;
+}
+
+.pack-1 .pack1-name{
+    top: 425px;
+    text-shadow: #000 2px 2px;
+}
+
+.pack-1 .pack1-price{
+    top: 445px;
+}
+
+.pack-3 .cont,
+.pack-5 .cont{
+    bottom: 78px;
+}
+
+.pack-tip-name{
+    text-shadow: #000 2px 2px;
+    margin-bottom: 80px;
+    position: relative;
+    top: 65px;
+    left: 15px;
+}
+
+.pack-3 .pack-tip-name{
+    left: 20px;
+}
+
+.pack-5 .pack-tip-name{
+    left: 15px;
+}
+
+.pack-tip-price{
+    color: #ffd000;
+    text-shadow: black 3px 3px 3px;
+    font-weight: bold;
+}
+
+/* Dicas (Banner 3 e 5) */
+
+.tip-text{
+    background-color: #E0BC39;
+    padding: 5px 30px;
+    color: #394530;
+    cursor:default;
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    font-weight: bold;
+    text-shadow: #394530 0.1px 0.1px;
+    margin: 15px 10px;
+    border: #394530 1px solid;
+    height: 100%;
+}
+
+/* Esc - Voltar */
+
+.exit-btn{
+    position: relative;
+    top: 150px;
+    left: 200px;
+    font-size: 25px;
+    align-items: center;
+}
+
+.exit-btn a{
+    color: #0B0C11;
+    background-color: #fff;
+    padding: 8px 25px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: 0.1s;
+    line-height: 40px;
+    font-size: 25px;
+    border:solid 1px #000;
+}
+
+.exit-btn a:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 17px 40px;
+}
+
+.exit-btn span{
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    text-shadow: #000 2px 2px;
+    font-size: 32px;
+}
+
+.exit-btn span:hover,
+.saldo:hover{
+    cursor: default;
+}
+
+/* Fotos de fundo dos packs*/
+.pack-1{
+    background-image: url(../img/pack-1.png);
+}
+
+.pack-2{
+    background-image: url(../img/pack-2.png);
+
+}
+.pack-3{
+    background-image: url(../img/pack-3.png);
+
+}
+.pack-4{
+    background-image: url(../img/pack-4.png);
+
+}
+.pack-5{
+    background-image: url(../img/pack-5.png);
+}
+
